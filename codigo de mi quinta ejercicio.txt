@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganando presicion con los selectores en CSS</title>
+    <link rel="stylesheet" href="Prueba04.css">
+</head>
+<body>
+    
+    <h1> Lista de la compra</h1>
+    <h2 id="titulo">titulo</h2>
+    <h3 class="encabezado">encabezado</h3>
+    <div>
+        <ul>
+            <Li class="encabezado">Tomate "Elemento-1"</Li>
+            <Li>Cebolla "Elemento-2"</Li>
+            <Li>Leche "Elemento-3"</Li>
+            <Li>Harina "Elemento-4"</Li>
+            <Li>Gaseosas "Elemento-5"</Li>
+        </ul>
+        <ol>
+            <li id="titulo">Carrefour "Elemento-1"</li>
+            <li>Vea "Elemento-2"</li>
+            <li>Dia "Elemento-3"</li>
+            <li>Makro "Elemento-4"</li>
+            <li>Maxi "Elemento-5"</li>
+        </ol>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+.encabezado {
+    color: red;
+    font-size: 2rem;
+
+}
+
+
+
+#titulo {
+    color: red;
+    
+}
